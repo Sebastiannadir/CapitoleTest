@@ -1,0 +1,42 @@
+3. Teniendo en cuenta que esta HU tiene implementación tanto de Web, como de iOS, Android y
+backend, comenta qué herramientas utilizarías para validar esta HU en cada disciplina.
+
+RESPUESTA:
+a) Emuladores de dispositivos móviles: Usaria emuladores de dispositivos móviles, como el emulador de Android integrado en Android Studio o el emulador de iOS integrado en Xcode
+b) Dispositivos móviles físicos(smartphone y/o tablet)
+c) Herramientas de prueba funcionales de api con postman
+
+
+
+4. Como QA engineer dentro de un equipo, compártenos que ceremonias y reuniones crees que
+existirán durante la semana que dura el sprint.
+
+5. Como último paso, nos gustaría incorporar la validación de este nuevo caso de uso a nuestro
+plan de regresión automática.
+• ¿Qué herramientas usarías para automatizar la parte de Web, iOS, Android y la parte
+backend?
+
+a) Herramientas de prueba de aplicaciones mobiles(Appium)
+c) Automatización de pruebas funcionales con robotframework, cypress para hacer la regresión de forma automatizada
+b) Pruebas de rendimiento para backend( Blazemeter/Jmeter)
+
+NOTA: Dependiendo del stack tecnologico que tenga la compañia, se puede ir adaptando esta propuesta, en definitiva se puede
+ser flexible con las herramientas si el equipo tiene claridad de hacia donde quiere escalar con las soluciones de QA en temas de integración continua
+
+• ¿Qué herramientas de CI/CD crees que se podrían usar para programar el lanzamiento de la
+regresión de forma planificada y manual?
+
+Dependiendo de las necesidades de la empresa y preferencias del equipo, considerando además el stack tecnologico de la compañia, puedo sugerir trabajar con Jenkins
+o Azure DevOps, la segunda opción es donde poseo expertis y tengo mayor claridad de poder sacar el mejor provecho a una implementación de CI/CD.
+
+6. El equipo de Desarrollo nos entrega un día tarde una HU prioritaria para el Producto. ¿Que
+estrategia tomarías en caso de que veas que no puedes llegar a probarla?
+
+La estrategia que tomaría en ese caso sería probar primero que todo, el happy path de esa HU. Sin embargo y dado mi experiencia
+considero importante definir estos pasos como un MUST para cuando ocurren estas situaciones que son muy comunes en agilidad sepamos que lineamientos tomar:
+
+a) Comunicar la situación al equipo (los tres amigos) que no se podran abordar todas las casuisticas
+b) Pedir prioridad al equipo y definirla en el backlog de impacto
+c) Reorganizar el plan de pruebas
+d) Involucrar al equipo de pruebas en caso que esta funcione como QA Factory y distribuir la carga de trabajo en los colegas en caso que sea viable
+e) Levantar la mano y solicitar apoyo cuando la HU es dificil de comprender y probar

@@ -1,0 +1,23 @@
+In this user history, the acceptance criteria are:
+
+The new user has signed up
+The user has verified their email address
+The user has logged in to their account
+The user is on the login page
+The user enters their correct username and password
+The user should accept Policy & Terms
+The user should be redirected to home page
+The user not accept Policy & Terms
+The user cannot be redirected to home page
+The user enter correct username and miss password
+The user enter correct password and miss username
+The user have the account locked
+The user clicks the "Forgot Password" link
+The user enters their email address
+The user should receive an email with instructions for resetting their password
+The user should be able to reset their password successfully
+the user should see an error message indicating that their account is locked
+The user should see an error message should display that says "Invalid username or password. Password is mandatory, please try again"
+The user should see an error message should display that says "You must accept Privacy & Terms to continue"
+
+
