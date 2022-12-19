@@ -8,7 +8,6 @@ Feature: Login Policy Check
     Given a new user has signed up with the following details:
       | User        | Password      |
       | pedro       | 12345fakepass |
-      | pedro       | 12345fakepass |
       | Juan        | 12345fakepass |
       | Diego       | 12345fakepass |
   And the user has verified their email address
