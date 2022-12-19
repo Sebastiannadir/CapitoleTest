@@ -11,6 +11,9 @@ c) Herramientas de prueba funcionales de api con postman
 4. Como QA engineer dentro de un equipo, compártenos que ceremonias y reuniones crees que
 existirán durante la semana que dura el sprint.
 
+Las reuniones que debiesen existir durante la semana del sprint son daily refinamiento, weekly y sprint review. Luego y dependiendo del proyecto se debe considerar una retro,
+planning, revision tecnica de HU
+
 5. Como último paso, nos gustaría incorporar la validación de este nuevo caso de uso a nuestro
 plan de regresión automática.
 • ¿Qué herramientas usarías para automatizar la parte de Web, iOS, Android y la parte
